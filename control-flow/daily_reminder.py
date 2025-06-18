@@ -42,4 +42,4 @@ else:
 
 
 # Provide a customized reminder
-print(reminder)
+print(f"Reminder: '{task}' is a {priority_description}{time_sensitive_suffix}")
