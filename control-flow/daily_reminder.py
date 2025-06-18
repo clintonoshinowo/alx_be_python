@@ -38,7 +38,6 @@ elif time_bound == "no":
     # We could also add specific non-time-bound phrasing here if desired.
     reminder += "."
 else:
-    # Handle unexpected time_bound input
     reminder += " (Time-bound status unclear)."
 
 
