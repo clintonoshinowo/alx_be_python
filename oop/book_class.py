@@ -17,7 +17,6 @@ class Book:
         self.title = title
         self.author = author
         self.year = year
-        print(f"Book '{self.title}' by {self.author} (published {self.year}) has been created.") # Optional: confirmation of creation
 
     def __del__(self):
         """
